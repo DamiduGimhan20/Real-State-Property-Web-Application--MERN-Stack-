@@ -1,0 +1,119 @@
+/* PropertyList.css */
+
+.container {
+    width: 100%;
+    height:910px ; 
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.property-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .property-list-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .filters label {
+    background-color: #00A6FF;
+    margin: 0 20px;
+    padding:0px 0px 0px 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .filters select {
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .filters button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filters button:hover {
+    background-color: #45a049;
+  }
+  
+  .property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .heading{
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: #333 2cm;
+  }
+  .filters.min{
+    background-color: #00A6FF;
+  }
+  .input {
+    margin-left: 7px;
+    border: 0;
+    padding: 1rem;
+    height: 10px;
+    background: #e8e8e8;
+    transition: 0.3s;
+   }
+   .selected-type{
+    margin-left: 7px;
+    border: 0;
+    padding: 1rem;
+    height: 40px;
+    width: 100px;
+    background: #e8e8e8;
+   }
+   .option {
+    font-size: 1rem;
+    color: #0e0c0c;
+    background-color: #e8e8e8;
+    padding: 2rem;
+    margin: 20px;
+  }
+  
+  .option:hover {
+    background-color: #e8e8e8;
+    color: rgb(170, 43, 43);
+  }
+  
+   
+   .input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+           inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+   }
+   .latest-ad{
+    font-size: 30px;
+    font-weight: 800;
+   }
+   

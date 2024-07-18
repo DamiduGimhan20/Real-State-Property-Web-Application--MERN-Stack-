@@ -1,0 +1,61 @@
+
+.edit-property-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-property-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .edit-property-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-property-form input,
+  .edit-property-form textarea,
+  .edit-property-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .edit-property-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .edit-property-form input[type="file"] {
+    border: none;
+    padding: 10px 0;
+  }
+  
+  .edit-property-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-property-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+  }

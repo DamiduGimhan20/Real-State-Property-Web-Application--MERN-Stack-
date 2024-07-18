@@ -1,0 +1,17 @@
+/* AdminHome.css */
+.admin-home {
+    padding: 20px;
+  }
+  
+  .admin-home h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .admin-property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }

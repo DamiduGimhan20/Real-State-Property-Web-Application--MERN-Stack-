@@ -1,0 +1,94 @@
+/* AdminPropertyCard.css */
+.admin-property-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.admin-property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.admin-property-card .property-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.admin-property-card .property-details {
+  flex-grow: 1;
+}
+
+.admin-property-card h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.admin-property-card p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+.admin-property-card .property-price {
+  font-weight: bold;
+  color: #4CAF50;
+  font-size: 1.2em;
+}
+
+.admin-property-card .admin-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.admin-property-card .edit-button,
+.admin-property-card .delete-button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.admin-property-card .edit-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.admin-property-card .edit-button:hover {
+  background-color: #45a049;
+}
+
+.admin-property-card .delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.admin-property-card .delete-button:hover {
+  background-color: #d32f2f;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

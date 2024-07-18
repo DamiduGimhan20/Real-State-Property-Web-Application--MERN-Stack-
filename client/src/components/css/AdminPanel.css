@@ -1,0 +1,36 @@
+/* AdminPanel.css */
+.admin-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-panel nav {
+    background-color: #333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .admin-panel nav li {
+    margin: 0 15px;
+  }
+  
+  .admin-panel nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .admin-panel nav a:hover {
+    color: #4CAF50;
+  }
