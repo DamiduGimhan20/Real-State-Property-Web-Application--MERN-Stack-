@@ -67,6 +67,12 @@ client - `npm start`<br/>
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.<br/>
+## UI
+![Home](Screenshots/UI/HomePage.png)
+![Admin](Screenshots/UI/Admin.png)
+## Author
+- UI Designer  [Dimuthu Ruwantha](https://github.com/Dimuthu-2000)
+- Developer  [Damidu Gimhan](https://github.com/DamiduGimhan20)
 ## License
 This project is licensed under the MIT License.
 
