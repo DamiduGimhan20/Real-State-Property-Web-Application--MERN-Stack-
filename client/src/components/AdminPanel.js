@@ -13,6 +13,7 @@ const AdminPanel = () => {
         <ul>
           <li><Link to="/admin">Admin Home</Link></li>
           <li><Link to="/admin/add">Add Property</Link></li>
+          <li><Link to="/properties">Property List </Link></li>
         </ul>
       </nav>
 

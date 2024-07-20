@@ -50,7 +50,6 @@ const PropertyList = () => {
     <div className='container'>
       <Navbar />
       <div className="property-list-container">
-        <h2 className='heading'>Real Estate Property</h2>
         <PropertyFilters
           minPrice={minPrice}
           setMinPrice={setMinPrice}

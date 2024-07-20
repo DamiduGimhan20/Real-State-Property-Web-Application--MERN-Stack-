@@ -1,0 +1,192 @@
+.home-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .hero h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+    color: #434447;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #101111;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: rgb(221, 228, 160);
+    color: #131212;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color:rgb(221, 258, 160);
+  }
+  
+  /* Featured Properties */
+  .featured-properties {
+    padding: 80px 0;
+  }
+  
+  .featured-properties h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .property-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .property-info {
+    padding: 20px;
+  }
+  
+  .property-info h3 {
+    margin-bottom: 10px;
+  }
+  
+  .property-info .location {
+    color: #6b7280;
+    margin-bottom: 10px;
+  }
+  
+  .property-info .price {
+    color: #3b82f6;
+    font-weight: bold;
+  }
+  
+  .view-all {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .view-all-link {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .view-all-link:hover {
+    text-decoration: underline;
+  }
+  
+  .view-all-link .icon {
+    margin-left: 8px;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 80px 0;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .feature .icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+    color: #3b82f6;
+  }
+  
+  .feature h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Call to Action */
+  .cta {
+    background-image: url('../img/house.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 36px;
+      color: #000000;
+    }
+  
+    .hero p, .cta p {
+      font-size: 18px;
+      color: #000;
+    }
+  
+    .featured-properties h2, .why-choose-us h2, .cta h2 {
+      font-size: 30px;
+    }
+  }

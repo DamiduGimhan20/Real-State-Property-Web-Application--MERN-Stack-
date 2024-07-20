@@ -1,0 +1,131 @@
+.contact-us {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .contact-header {
+    background-image: url('../img/house.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .contact-header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-header p {
+    color: #000;
+    font-weight: 800;
+    font-size: 24px;
+    opacity: 0.8;
+  }
+  
+  .contact-content {
+    padding: 80px 0;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+
+  .contact-form h2,
+  .contact-info h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #3b82f6;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  .submit-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .contact-info {
+    background-color: #f8fafc;
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .info-item i {
+    font-size: 24px;
+    color: #3b82f6;
+    margin-right: 15px;
+    width: 24px;
+  }
+  
+  .info-item p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-header h1 {
+      font-size: 36px;
+    }
+  
+    .contact-header p {
+      font-size: 20px;
+    }
+  
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-form,
+    .contact-info {
+      padding: 20px;
+    }
+  }
